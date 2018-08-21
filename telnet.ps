@@ -1,17 +1,19 @@
-<#    
-    cheewaphat
-    A full graceful telnet client using PowerShell and the .NET Framework. 
-
-    DESCRIPTION
-    This script was made with a view of using it to have full control over the text
-    stream for automating Cisco router and switch configurations. TRUE ASSET
-
-    PARAMETER TelnetHost
-    The address of the server or router hosting the telnet service.
-
-    PARAMETER Port
-    The TCP port number of the Telnet service running on the Telnet host.
-#>
+```shell
+#!/bin/bash
+####################################################################################
+#    cheewaphat
+#    A full graceful telnet client using PowerShell and the .NET Framework. 
+#
+#    DESCRIPTION
+#    This script was made with a view of using it to have full control over the text
+#    stream for automating Cisco router and switch configurations. TRUE ASSET
+#
+#    PARAMETER TelnetHost
+#    The address of the server or router hosting the telnet service.
+#
+#    PARAMETER Port
+#    The TCP port number of the Telnet service running on the Telnet host.
+####################################################################################
 
 param
 (
@@ -240,3 +242,4 @@ finally
         $PS.Dispose()
     }
 }
+```shell
